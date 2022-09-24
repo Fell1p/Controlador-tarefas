@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de controle de tempo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="borda-caixa-pessoa">
+            <div class="pessoa">
+                <img src="fe.jpg" class="imagemUsuario">
+                <p class="feito-para">Feito para</p>
+                <p class="nome">Felipe <br> Almeida</p>
+
+            </div>
+           <button onclick="diario()">Diário</button> 
+           <button onclick="semanal()">Semanal</button> 
+           <button onclick="mensal()">Mensal</button> 
+            
+        </div>
+
+        <div class="caixas">
+            <div class="borda-caixa">
+                <img src="./images/icon-work.svg" class="icone" width="30px">
+                <div class="caixa">
+                    <h2>Trabalho</h2>
+                    <div class="trabalho-current"></div>
+                    <div class="trabalho-previous"></div>
+                </div>
+               
+            </div>
+
+            <div class="borda-caixa-play">
+                <img src="./images/icon-play.svg" class="icone" width="30px">
+                <div class="caixa">
+                    <h2>Jogo</h2>
+                    <div class="jogo-current"></div>
+                    <div class="jogo-previous"></div>
+                </div>
+            </div>
+
+            <div class="borda-caixa-estudos">
+                <img src="./images/icon-study.svg" class="icone" width="30px">
+                <div class="caixa">
+                    <h2>Estudos</h2>
+                    <div class="estudos-current"></div>
+                    <div class="estudos-previous"></div>
+                </div>
+            </div>
+
+            <div class="borda-caixa-fisica">
+                <img src="./images/icon-exercise.svg" class="icone" width="43px">
+                <div class="caixa">
+                    <h2>Atividade fisica</h2>
+                    <div class="atividade-current"></div>
+                    <div class="atividade-previous"></div>
+                </div>
+            </div>
+
+            <div class="borda-caixa-social">
+                <img src="./images/icon-social.svg" class="icone" width="23px">
+                <div class="caixa">
+                    <h2>Vida social</h2>
+                    <div class="social-current"></div>
+                    <div class="social-previous"></div>
+                </div>
+            </div>
+
+            <div class="borda-caixa-cuidado">
+                <img src="./images/icon-self-care.svg" class="icone" width="30px">
+                <div class="caixa">
+                    <h2>Cudado Proprio</h2>
+                    <div class="cuidado-current"></div>
+                    <div class="cuidado-previous"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="contagem.js"></script>
+    
+</body>
+</html>
