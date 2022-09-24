@@ -6,7 +6,7 @@ Painel que controla de forma diária, semanal e mensal quantidade de horas gasta
 
 Aprimorar as hard-skills relacionadas as tecnologias HTML, CSS e JavaScript, estilizando e posicionando elementos com Flexbox e aplicando dinamismo com DOM.
 
-### Link página: https://fell1p.github.io/Controlador-tarefas/
+#### Link página: https://fell1p.github.io/Controlador-tarefas/
 
 ### Imagem
 
