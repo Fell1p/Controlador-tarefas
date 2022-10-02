@@ -10,4 +10,5 @@ Aprimorar as hard-skills relacionadas as tecnologias HTML, CSS e JavaScript, est
 
 ### Imagem
 
-![painelControlador](https://user-images.githubusercontent.com/99513670/192077811-fe3067fa-fd88-4a07-a24c-634743161cdf.png)
+![Sem título](https://user-images.githubusercontent.com/99513670/193466298-920cddf5-a471-41b7-a014-7bf677abb02e.png)
+
